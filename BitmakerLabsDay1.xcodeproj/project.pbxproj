@@ -14,6 +14,7 @@
 		963F4FAE1AD310E10093E07D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963F4FAD1AD310E10093E07D /* Images.xcassets */; };
 		963F4FB11AD310E10093E07D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963F4FAF1AD310E10093E07D /* LaunchScreen.xib */; };
 		963F4FBD1AD310E10093E07D /* BitmakerLabsDay1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963F4FBC1AD310E10093E07D /* BitmakerLabsDay1Tests.m */; };
+		963F4FC81AD31A400093E07D /* Feature.m in Sources */ = {isa = PBXBuildFile; fileRef = 963F4FC71AD31A400093E07D /* Feature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		963F4FB61AD310E10093E07D /* BitmakerLabsDay1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitmakerLabsDay1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		963F4FBB1AD310E10093E07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		963F4FBC1AD310E10093E07D /* BitmakerLabsDay1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitmakerLabsDay1Tests.m; sourceTree = "<group>"; };
+		963F4FC61AD31A400093E07D /* Feature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feature.h; sourceTree = "<group>"; };
+		963F4FC71AD31A400093E07D /* Feature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		963F4F941AD310E00093E07D = {
 			isa = PBXGroup;
 			children = (
+				963F4FC91AD31AB40093E07D /* model */,
 				963F4F9F1AD310E10093E07D /* BitmakerLabsDay1 */,
 				963F4FB91AD310E10093E07D /* BitmakerLabsDay1Tests */,
 				963F4F9E1AD310E10093E07D /* Products */,
@@ -117,6 +121,15 @@
 				963F4FBB1AD310E10093E07D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		963F4FC91AD31AB40093E07D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				963F4FC61AD31A400093E07D /* Feature.h */,
+				963F4FC71AD31A400093E07D /* Feature.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963F4FC81AD31A400093E07D /* Feature.m in Sources */,
 				963F4FA91AD310E10093E07D /* ViewController.m in Sources */,
 				963F4FA61AD310E10093E07D /* AppDelegate.m in Sources */,
 				963F4FA31AD310E10093E07D /* main.m in Sources */,
